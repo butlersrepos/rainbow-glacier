@@ -2,7 +2,6 @@
 const fetch = require('node-fetch');
 const scrapeIt = require('scrape-it');
 const prompt = require('prompt');
-const chalk = require('chalk');
 const fs = require('fs');
 const mkdirp = require('mkdirp');
 

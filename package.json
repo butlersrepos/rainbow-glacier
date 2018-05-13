@@ -2,23 +2,33 @@
   "name": "rainbow-glacier",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "dev": "parcel",
+    "dev": "parcel index.html --open",
     "scrape": "node scraper/scrape-em.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "butlersrepos",
+  "license": "MIT",
+  "alias": {
+    "react": "preact-compat",
+    "react-dom": "preact-compat"
+  },
   "dependencies": {
-    "chalk": "^2.4.1",
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "cheerio": "^0.20.0",
     "mkdirp": "^0.5.1",
     "node-fetch": "^2.1.2",
-    "parcel-bundler": "^1.8.1",
     "preact": "^8.2.9",
+    "preact-compat": "^3.18.0",
     "prompt": "^1.0.0",
-    "scrape-it": "^5.0.5"
+    "scrape-it": "^5.0.5",
+    "styled-components": "^3.2.6"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-preact": "^1.1.0",
+    "parcel-bundler": "^1.8.1"
   }
 }
