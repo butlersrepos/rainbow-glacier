@@ -1,0 +1,24 @@
+{
+  "name": "rainbow-glacier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel",
+    "scrape": "node scraper/scrape-em.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "cheerio": "^0.20.0",
+    "mkdirp": "^0.5.1",
+    "node-fetch": "^2.1.2",
+    "parcel-bundler": "^1.8.1",
+    "preact": "^8.2.9",
+    "prompt": "^1.0.0",
+    "scrape-it": "^5.0.5"
+  }
+}
